@@ -1,92 +1,136 @@
-# Colby Moore - Portfolio  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-🎓 **Computer Science Freshman** at the **University of North Texas**  
-📍 **Frisco, TX, USA**  
+        <link rel="stylesheet" href="assets/styles.css">
 
-📞 **(469) 360 – 7817**  
-📧 [moorecolby32@gmail.com](mailto:moorecolby32@gmail.com)  
-🌐 [LinkedIn Profile](https://www.linkedin.com/in/colby-moore/)  
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
----
+        <title>Colby Moore - Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Colby Moore</a>
+                </div>
 
-## About Me  
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-I am an enthusiastic and dedicated Computer Science student with over two years of leadership experience as a Lead Instructor at Code Ninjas. Proficient in software development and web technologies, I am passionate about solving problems through code and continuously improving my technical skills.  
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-💻 Seeking a **Web Developer** or **Software Engineering Internship** to contribute to impactful projects.  
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Colby Moore</span><br>Computer Science Student</h1>
 
----
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
 
-## Technical Skills  
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/colby-moore/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:moorecolby32@gmail.com" class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                </div>
 
-- **Programming Languages**: Java, Python, JavaScript, C/C++, HTML/CSS  
-- **Web Development**: HTML, CSS, JavaScript, React  
-- **Operating Systems**: Linux (Ubuntu, CentOS), Windows  
-- **Software & Tools**: Git, VS Code, Node.js, Docker  
-- **Database Management**: MySQL, SQLite  
-- **Frameworks & Libraries**: Express.js, Flask  
-- **Problem Solving & Debugging**: Algorithm analysis, Bug fixing, Code refactoring  
-- **Version Control**: Git/GitHub, Bitbucket  
-- **Cloud Platforms**: AWS (EC2, S3), Google Cloud  
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/colby_image.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
 
----
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
 
-## Education  
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Enthusiastic Computer Science Freshman</h2>
+                        <p class="about__text">I am an enthusiastic and dedicated Computer Science freshman at the University of North Texas with over two years of leadership experience as a Lead Instructor at Code Ninjas. Proficient in software development and web technologies, including Java, Python, JavaScript, React, and cloud platforms. I am seeking a web developer or software engineering internship to apply my technical skills in real-world projects, optimize workflows, and drive impactful results.</p>           
+                    </div>                                   
+                </div>
+            </section>
 
-🎓 **Bachelor of Science in Computer Science**  
-📍 **University of North Texas – Denton, TX**  
-📅 **Graduating May 2028**  
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Technical Skills</h2>
+                <ul>
+                    <li>Programming Languages: Java, Python, JavaScript, C/C++, HTML/CSS</li>
+                    <li>Web Development: HTML, CSS, JavaScript, React</li>
+                    <li>Operating Systems: Linux (Ubuntu, CentOS), Windows</li>
+                    <li>Software & Tools: Git, VS Code, Node.js, Docker</li>
+                    <li>Database Management: MySQL, SQLite</li>
+                    <li>Frameworks & Libraries: Express.js, Flask</li>
+                    <li>Problem Solving & Debugging: Algorithm analysis, Bug fixing, Code refactoring</li>
+                    <li>Version Control: Git/GitHub, Bitbucket</li>
+                    <li>Cloud Platforms: AWS (EC2, S3), Google Cloud</li>
+                </ul>
+            </section>
 
-### Relevant Coursework:  
-- Programming Foundations  
-- Discrete Mathematics  
-- Web Development  
-- Data Structures  
+            <!--===== EXPERIENCE =====-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div>
+                    <h3>Lead Coding Instructor</h3>
+                    <p>Code Ninjas – Frisco, TX | Nov 2021 – Present</p>
+                    <ul>
+                        <li>Orchestrated curriculum development and managed a team of instructors, enhancing the learning experience for over 50 students.</li>
+                        <li>Led the creation of an internal classroom management tool using JavaScript and Node.js, improving operational efficiency by 30%.</li>
+                        <li>Mentored students in JavaScript, Python, and C++, providing guidance on capstone projects and individual development tasks.</li>
+                        <li>Streamlined the debugging process for students by implementing structured code review sessions, reducing error rates by 15%.</li>
+                        <li>Enhanced the curriculum by incorporating new coding methodologies and up-to-date technologies, improving engagement and retention by 20%.</li>
+                    </ul>
+                </div>
+            </section>
 
----
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <p><strong>Phone:</strong> (469) 360–7817</p>
+                    <p><strong>Email:</strong> <a href="mailto:moorecolby32@gmail.com">moorecolby32@gmail.com</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/colby-moore/">linkedin.com/in/colby-moore</a></p>
+                </div>
+            </section>
+        </main>
 
-## Experience  
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Colby Moore</p>
+            <p class="footer__copy">&#169; 2024 Colby Moore. All rights reserved.</p>
+        </footer>
 
-### **Lead Coding Instructor**  
-📍 **Code Ninjas – Frisco, TX**  
-📅 **Nov 2021 – Present**  
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-- Orchestrated curriculum development and managed a team of instructors, enhancing the learning experience for over 50 students.  
-- Led the creation of an internal classroom management tool using **JavaScript** and **Node.js**, improving operational efficiency by 30%.  
-- Mentored students in **JavaScript**, **Python**, and **C++**, providing guidance on capstone projects.  
-- Streamlined the debugging process for students by implementing structured code review sessions, reducing error rates by 15%.  
-
----
-
-## Projects  
-
-### Student Resource Website  
-📅 **Aug 2022 – Present**  
-- Developed an interactive website for international students using **HTML**, **CSS**, and **JavaScript** that offers resources and support.  
-
-### HackUNT 2023  
-📅 **Hackathon**  
-- Contributed to a project utilizing **Python** to automate a real-time data processing solution.  
-
----
-
-## Portfolio  
-
-### 📂 Projects and Code Samples  
-
-1. **[Student Resource Website](#)**  
-   <img src="assets/student-resource-website.png" alt="Student Resource Website" width="600px">  
-   - An interactive website designed for international students to access vital resources.  
-
-2. **[HackUNT 2023 Project](#)**  
-   <img src="assets/hackunt-2023-project.png" alt="HackUNT Project" width="600px">  
-   - A Python-based automation solution for real-time data processing.  
-
----
-
-## Contact  
-
-Feel free to reach out to me for collaborations or opportunities!  
-
-📧 [moorecolby32@gmail.com](mailto:moorecolby32@gmail.com)  
-🌐 [LinkedIn Profile](https://www.linkedin.com/in/colby-moore/)  
+        <!--===== MAIN JS =====-->
+        <script src="assets/main.js"></script>
+    </body>
+</html>
